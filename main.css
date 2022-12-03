@@ -1,0 +1,37 @@
+
+
+
+.navbar ul{ 
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 93%;
+    border-radius: 10px;
+
+
+}
+
+.navbar ul li{
+    float: right;
+    
+}
+
+.navbar ul li a{
+    padding: 12px 14px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    
+}
+.navbar ul li a:hover{
+    background-color: blue;
+}
+
+.active{
+    background-color: gold;
+}
